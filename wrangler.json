@@ -1,0 +1,32 @@
+{
+  "account_id": "e404d47e5807d2181d2e2a9acc041ca7",
+  "name": "tback",
+  "compatibility_date": "2026-05-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "taptap-db",
+      "database_id": "f050477b-6695-470a-81a1-9493541c469b"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "AUTH_KV",
+      "id": "32f9983b3d154cd299c4f45c60875721"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MY_R2",
+      "bucket_name": "taptaptap-photos"
+    },
+    {
+      "binding": "qrphoto",
+      "bucket_name": "qrphoto"
+    }
+  ]
+}
